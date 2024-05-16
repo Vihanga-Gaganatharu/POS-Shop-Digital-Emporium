@@ -454,9 +454,12 @@ body {
 	font-size: 13px;
 	text-align: left;
 	border-bottom: 1px solid var(--grey);
+    border-color: #0080ff;
 }
 #content main .table-data .order table td {
 	padding: 16px 0;
+    padding-right: -50px;
+    
 }
 #content main .table-data .order table tr td:first-child {
 	display: flex;
@@ -470,8 +473,13 @@ body {
 	border-radius: 50%;
 	object-fit: cover;
 }
+#content main .table-data .order table td p {
+    font-size: 15px;
+
+}
 #content main .table-data .order table tbody tr:hover {
 	background: var(--grey);
+    border-color: #ff0800;
 }
 #content main .table-data .order table tr td .status {
 	font-size: 10px;
