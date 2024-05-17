@@ -8,7 +8,7 @@
     <!-- Boxicons -->
 	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
 	<!-- My CSS -->
-	<link rel="stylesheet" href="/style/style.css">
+	<link rel="stylesheet" href="/style/customer.css">
 
 
 </head>
@@ -83,7 +83,7 @@
 				</div>
 			</form>
 			<input type="checkbox" id="switch-mode" hidden>
-			<label for="switch-mode" class="switch-mode"></label>
+			
 			<a href="/Pages/masseges.html" class="notification">
 				<i class='bx bxs-bell' ></i>
 				<span class="num">8</span>
@@ -93,9 +93,57 @@
 			</a>
 		</nav>
 		<!-- NAVBAR -->
-    </section>    
+	<main>
+
+		<div class="head-title">
+				<div class="left">
+					<h1>Store</h1>
+					<ul class="breadcrumb">
+						<li>
+							<a href="#">Store</a>
+						</li>
+						<li><i class='bx bx-chevron-right' ></i></li>
+						<li>
+							<a class="active" href="#">Detalis</a>
+						</li>
+					</ul>
+				</div>
+				<a href="#" class="btn-download">
+					<i class='bx  bx-plus' ></i>
+					<span class="text">Add Item</span>
+				</a>
+			</div>
+
+		<div class="container">
+			<h2>Add New Customer</h2>
+			<form action="/submit-form" method="POST">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" />
+
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" />
+
+				<label for="name">Date Of Birth:</label>
+				<input type="date" id="name" name="name" />
+
+				<label for="name">Contact No:</label>
+				<input type="text" id="name" name="name" />
+
+				<label for="email">E-mail:</label>
+				<input type="email" id="name" name="name" />
 
 
+				<input type="submit" value="Add" />
+				<input type="button" value="Cancel" />
+			</form>
+		</div>
+
+
+	</main>	
+
+</section>    
+
+		
 	<script src="/js/script.js"></script>
     
 </body>

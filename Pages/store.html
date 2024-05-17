@@ -85,7 +85,7 @@
 				</div>
 			</form>
 			<input type="checkbox" id="switch-mode" hidden>
-			<label for="switch-mode" class="switch-mode"></label>
+			<!-- <label for="switch-mode" class="switch-mode"></label> -->
 			<a href="/Pages/masseges.html" class="notification">
 				<i class='bx bxs-bell bx-tada bx-md'></i>
 				<span class="num">8</span>
@@ -106,12 +106,12 @@
 						</li>
 						<li><i class='bx bx-chevron-right' ></i></li>
 						<li>
-							<a class="active" href="#">Home</a>
+							<a class="active" href="#">Detalis</a>
 						</li>
 					</ul>
 				</div>
 				<a href="#" class="btn-download">
-					<i class='bx bxs-' ></i>
+					<i class='bx  bx-plus' ></i>
 					<span class="text">Add Item</span>
 				</a>
 			</div>
@@ -141,6 +141,31 @@
 			</ul>
 
 
+			 	<div class="container">
+					<h2>Add New Item</h2>
+					<form action="/submit-form" method="POST">
+						<label for="name">Item Name:</label>
+						<input type="text" id="name" name="name" />
+
+						<label for="name">Expire Date:</label>
+						<input type="date" id="name" name="name" />
+
+						<label for="name">Price:</label>
+						<input type="text" id="name" name="name" />
+
+						<label for="name">Qty:</label>
+						<input type="number" id="name" name="name" />
+
+						<label for="name">Status:</label>
+						<input type="dropdown-menu" id="name" name="name" />
+
+
+						<input type="submit" value="Add" />
+						<input type="button" value="Cancel" />
+					</form>
+				</div>
+
+
 			<div class="table-data">
 				<div class="order">
 					<div class="head">
@@ -153,9 +178,9 @@
 							<tr>
 								<th> &nbsp; Item</th>
 								<th>Expire Date</th>
-								<th>Status</th>
 								<th>Price</th>
 								<th>Qty</th>
+								<th>Status</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -165,9 +190,10 @@
 									<p>Item Toy</p>
 								</td>
 								<td>01-10-2021</td>
-								<td><span class="status completed">Completed</span></td>
+								
 								<td>2400/=</td>
-								<td>10</td>
+								<td>35</td>
+								<td><span class="status completed">On Stock</span></td>
 							</tr>
 							<tr>
 								<td>
@@ -175,9 +201,10 @@
 									<p>Item Toy</p>
 								</td>
 								<td>01-10-2021</td>
-								<td><span class="status pending">Pending</span></td>
+								
 								<td>2400/=</td>
-								<td>90</td>
+								<td>0</td>
+								<td><span class="status pending">Out Stock</span></td>
 							</tr>
 							<tr>
 								<td>
@@ -185,9 +212,10 @@
 									<p>Item Toy</p>
 								</td>
 								<td>01-10-2021</td>
-								<td><span class="status process">Process</span></td>
+								
 								<td>2400/=</td>
-								<td>80</td>
+								<td>8</td>
+								<td><span class="status process">Low Stock</span></td>
 							</tr>
 							<tr>
 								<td>
@@ -195,9 +223,10 @@
 									<p>Item Toy</p>
 								</td>
 								<td>01-10-2021</td>
-								<td><span class="status pending">Pending</span></td>
+								
 								<td>2400/=</td>
 								<td>75</td>
+								<td><span class="status completed">On Stock</span></td>
 							</tr>
 							<tr>
 								<td>
@@ -205,9 +234,10 @@
 									<p>Item Toy</p>
 								</td>
 								<td>01-10-2021</td>
-								<td><span class="status completed">Completed</span></td>
+								
 								<td>2400/=</td>
-								<td>50</td>
+								<td>400</td>
+								<td><span class="status completed">On Stock</span></td>
 							</tr>
 							<tr>
 								<td>
@@ -215,9 +245,10 @@
 									<p>Item Toy</p>
 								</td>
 								<td>01-10-2021</td>
-								<td><span class="status pending">Pending</span></td>
+								
 								<td>2400/=</td>
-								<td>50</td>
+								<td>0</td>
+								<td><span class="status pending">Out Stock</span></td>
 							</tr>
 							<tr>
 								<td>
@@ -225,9 +256,10 @@
 									<p>Item Toy</p>
 								</td>
 								<td>01-10-2021</td>
-								<td><span class="status completed">Completed</span></td>
+								
 								<td>2400/=</td>
-								<td>50</td>
+								<td>550</td>
+								<td><span class="status completed">On Stock</span></td>
 							</tr>
 							<tr>
 								<td>
@@ -235,9 +267,10 @@
 									<p>Item Toy</p>
 								</td>
 								<td>01-10-2021</td>
-								<td><span class="status completed">Completed</span></td>
+								
 								<td>2400/=</td>
-								<td>50</td>
+								<td>150</td>
+								<td><span class="status completed">On Stock</span></td>
 							</tr>
 							<tr>
 								<td>
@@ -245,9 +278,10 @@
 									<p>Item Toy</p>
 								</td>
 								<td>01-10-2021</td>
-								<td><span class="status pending">Pending</span></td>
+								
 								<td>2400/=</td>
-								<td>50</td>
+								<td>0</td>
+								<td><span class="status pending">Out Stock</span></td>
 							</tr>
 							<tr>
 								<td>
@@ -255,9 +289,10 @@
 									<p>Item Toy</p>
 								</td>
 								<td>01-10-2021</td>
-								<td><span class="status completed">Completed</span></td>
+								
 								<td>2400/=</td>
 								<td>50</td>
+								<td><span class="status completed">On Stock</span></td>
 							</tr>
 							<tr>
 								<td>
@@ -265,9 +300,10 @@
 									<p>Item Toy</p>
 								</td>
 								<td>01-10-2021</td>
-								<td><span class="status process">Process</span></td>
+								
 								<td>2400/=</td>
-								<td>50</td>
+								<td>10</td>
+								<td><span class="status process">Low Stock</span></td>
 							</tr>
 						</tbody>
 					</table>
