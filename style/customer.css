@@ -505,6 +505,15 @@ body {
 #content main .table-data .order table tr td .status.pending {
 	background: var(--orange);
 }
+#content main .table-data .order table tr td i{
+	transition: 0.3s ease-in-out;
+}
+#content main .table-data .order table tr td i:hover{
+	cursor: pointer;
+	box-shadow:  2px 4px 8px rgba(114, 114, 114, 0.582); /* Add box shadow */;
+	transform: scale(1.1);
+	
+}
 
 
 #content main .table-data .todo {
@@ -542,9 +551,8 @@ body {
 
    .container {
         max-width: 500px;
-        /* margin: 50px auto; */
         margin-top: 50px;
-        margin-left: 50px;
+        margin-left: 50px; 
         background-color: #fff;
         padding: 20px;
         border-radius: 8px;
