@@ -30,6 +30,6 @@ Welcome to the Digital-Emporium POS System project! This web-based Point of Sale
 ### Steps
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Vihanga-Gaganatharu/POS-Shop-Digital-Emporium.git
-   cd POS-System
-   viste in web : https://vihanga-gaganatharu.github.io/POS-Shop-Digital-Emporium/index.html
+         https://github.com/Vihanga-Gaganatharu/POS-Shop-Digital-Emporium.git
+   
+
